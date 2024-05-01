@@ -1,7 +1,7 @@
 #to buikd the base image which we got from the dockerhub which has has an OS and python installed
 FROM python:3.8-slim-buster 
 # in that mini computer , create a folder called flask-docker
-WORKDIR/flask-docker
+WORKDIR /flask-docker
 
 #since my python verion is old , upgrade my pip
 RUN python3 -m pip install --upgrade pip
