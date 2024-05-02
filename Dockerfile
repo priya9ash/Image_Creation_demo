@@ -1,5 +1,5 @@
 #to buikd the base image which we got from the dockerhub which has has an OS and python installed
-FROM python:3.8-slim-buster 
+FROM python:3.11-slim 
 # in that mini computer , create a folder called flask-docker
 WORKDIR /flask-docker
 
